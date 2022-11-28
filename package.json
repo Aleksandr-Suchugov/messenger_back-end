@@ -1,0 +1,29 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "messenger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandr-Suchugov/messenger_back-end.git"
+  },
+  "author": "Aleksandr Suchugov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandr-Suchugov/messenger_back-end/issues"
+  },
+  "homepage": "https://github.com/Aleksandr-Suchugov/messenger_back-end#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
